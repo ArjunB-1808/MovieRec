@@ -1,1 +1,3 @@
-# MovieRec
+This project is a content-based movie recommendation system that leverages the power of TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity.
+
+At its core, the system analyzes various textual attributes of movies—including their genres, keywords, top cast members, director, and plot overview—to build a comprehensive textual profile for each film. It then uses TF-IDF to convert these textual profiles into numerical vectors, effectively highlighting the most important terms. Finally, cosine similarity is calculated between these movie vectors to determine how similar any two movies are in terms of their content. When you input a movie title, the system identifies the most similar films based on these content-based comparisons, providing you with a list of recommended movies you might enjoy.
